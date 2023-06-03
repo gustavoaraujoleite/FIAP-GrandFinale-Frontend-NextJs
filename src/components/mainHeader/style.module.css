@@ -1,0 +1,49 @@
+.main_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  padding: 0.6rem 0;
+  z-index: 1000;
+  background-color: #fff;
+}
+.box_container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu_items_container {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+  margin-right: 4rem;
+}
+.menu_items {
+  text-decoration: none;
+  color: #322a2a;
+  font-weight: bold;
+  font-size: 18px;
+}
+.home_active {
+  color: #e7504d;
+  border-bottom: 1px solid #e7504d;
+}
+.register_active {
+  color: #23ab17;
+  border-bottom: 1px solid #26cf17;
+}
+.research_active {
+  color: #394ade;
+  border-bottom: 1px solid #394ade;
+}
+.content_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "health-tech",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.12.3",
+    "@svgr/webpack": "^7.0.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "googleapis": "^118.0.0",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0"
+  }
+}

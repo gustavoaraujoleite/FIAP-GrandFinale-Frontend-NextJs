@@ -1,0 +1,17 @@
+.container {
+  all: unset;
+  border-radius: 8px;
+  /* width: 100%; */
+  padding: 10px 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.35s ease-in-out;
+}
+
+.text {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 600;
+}
